@@ -41,6 +41,9 @@
             {{ range .Pages }}
 
 {{/* <div style="display: flex;">
+
+
+
     <div style="width: 15%; background-color: {{ .Site.Params.vyBKColor }}; display: flex; justify-content: center; align-items: center;">
         <!-- Your image goes here --> */}}
 
