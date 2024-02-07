@@ -6,10 +6,14 @@
   </head>
 
   <body>
-    {{ partial "nav.html" . }} {{ block "header" . }}{{ partial "header.html" .
-    }}{{ end }} 
+    {{ partial "nav.html" . }} 
+      {{ block "header" . }}
+<p>==========.  default baseof 000=========</p>
+      {{ partial "header.html" .}}
+<p>==========.  default baseof 001=========</p>
+    {{ end }} 
 
-<p>==========.  default baseof =========</p>
+<p>==========.  default baseof 002=========</p>
 
 {{ block "main" . }}{{ end }} {{ partial "footer.html" . }} {{ block "footer" . }}{{ end }}
   </body>
