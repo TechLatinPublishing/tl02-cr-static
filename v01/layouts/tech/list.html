@@ -18,6 +18,7 @@
 
 
       <!-- <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"> -->
+<P>==================================.   tech list</P>
            <div class="col-lg-9 col-lg-offset-0 col-md-9 col-md-offset-0">
 
         {{ with .Content }}
@@ -25,6 +26,9 @@
             {{.}}
           </div>
         {{ end }}
+
+
+
         <div class="posts-list">
           {{ range .Paginator.Pages }}
             {{ partial "post_preview.html" .}}
