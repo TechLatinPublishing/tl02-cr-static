@@ -1,11 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ .Lang }}" itemscope itemtype="http://schema.org/WebPage">
+
   <head>
     {{ partial "head.html" . }}
   </head>
+
   <body>
     {{ partial "nav.html" . }} {{ block "header" . }}{{ partial "header.html" .
-    }}{{ end }} {{ block "main" . }}{{ end }} {{ partial "footer.html" . }} {{
-    block "footer" . }}{{ end }}
+    }}{{ end }} 
+
+<p>==========.  default baseof =========</p>
+
+{{ block "main" . }}{{ end }} {{ partial "footer.html" . }} {{ block "footer" . }}{{ end }}
   </body>
+
 </html>
